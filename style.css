@@ -120,7 +120,7 @@
 }
 
 .contact a {
-  color: palevioletred;
+  color: #d8b4fe;
   text-decoration: none;
   font-weight: bold;
 }
@@ -135,7 +135,7 @@
 
 .socials a {
   margin: 0 12px;
-  color: palevioletred;
+  color:#d8b4fe;
   text-decoration: none;
   font-weight: 500;
 }
