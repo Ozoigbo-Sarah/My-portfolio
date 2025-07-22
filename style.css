@@ -257,19 +257,29 @@ body {
 .project-link:hover {
   background-color: #9333ea;
 }
-/* == Mobile & Tablet Styles == */
+
 @media (max-width: 768px) {
-  /* Make nav links stack and adjust padding */
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
   }
+
   .nav-links {
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
   }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
 
   /* Slim down hero section for smaller screens */
   .hero {
@@ -301,4 +311,3 @@ body {
   .contact, .projects-section, .about-container {
     padding: 40px 15px;
   }
-}
