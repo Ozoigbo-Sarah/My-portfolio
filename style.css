@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: #6b21a8;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #d8b4fe;
+}
+
+/* === HERO SECTION === */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: linear-gradient(to right, #9333ea, #a855f7);
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text {
+  max-width: 55%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+/* === WAVE UNDER HERO SECTION === */
+.hero-wave {
+  position: relative;
+  margin-top: -1px;
+}
+
+.hero-wave svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: -4px;
+}
+
+/* === PROJECTS SECTION === */
+.projects {
+  background-color: #f3e8ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.projects h2 {
+  color: #6b21a8;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.projects p {
+  font-size: 1.1rem;
+  color: #4b0082;
+}
+
+/* === CONTACT SECTION === */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #4b0082;
+  color: #ede9fe;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: palevioletred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  margin-top: 15px;
+}
+
+.socials a {
+  margin: 0 12px;
+  color: palevioletred;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.socials a:hover {
+  color: #9333ea;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3e8ff;
+  color: #2e003e;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 80px auto;
+  background: white;
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #6b21a8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-button a {
+  text-decoration: none;
+  background-color: #6b21a8;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-button a:hover {
+  background-color: #9333ea;
+}
+/* Projects Page Styles */
+
+.projects-section {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  background-color: #f3e8ff;
+  border-radius: 10px;
+}
+
+.projects-section h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #6b21a8;
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 450px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h2 {
+  font-size: 1.6rem;
+  color: #9333ea;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #6b21a8;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #9333ea;
+}
