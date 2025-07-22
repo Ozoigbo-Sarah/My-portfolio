@@ -257,3 +257,48 @@ body {
 .project-link:hover {
   background-color: #9333ea;
 }
+/* == Mobile & Tablet Styles == */
+@media (max-width: 768px) {
+  /* Make nav links stack and adjust padding */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  /* Slim down hero section for smaller screens */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .hero-text, .hero-image {
+    max-width: 100%;
+    width: 100%;
+  }
+  .hero-image img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust project cards layout */
+  .projects-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Tidy up the contact section */
+  .contact, .projects-section, .about-container {
+    padding: 40px 15px;
+  }
+}
